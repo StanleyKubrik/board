@@ -16,17 +16,13 @@ def advertisement_prices(request):
 
 
 class About(TemplateView):
-    template_name = 'advertisements/about.html'
-
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['name'] = 'About our organization!'
         context['title'] = 'Information'
-        context['description'] = """
-        Something information about our organization.
-        \nAddress: ...
-        \nPhone: ...
-        \nTelegram: ...
-        \nInstagram: ... 
-        """
+        context['description'] = 'Something information about our organization.' \
+                                 '\nAddress: ...' \
+                                 '\nPhone: ...' \
+                                 '\nTelegram: ...' \
+                                 '\nInstagram: ... '
         return context

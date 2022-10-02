@@ -1,0 +1,11 @@
+2022-Oct-02 22:01:07 - http://127.0.0.1:8000/ - GET
+2022-Oct-02 22:01:08 - http://127.0.0.1:8000/advertisement - GET
+2022-Oct-02 22:01:09 - http://127.0.0.1:8000/ - GET
+2022-Oct-02 22:01:09 - http://127.0.0.1:8000/about - GET
+2022-Oct-02 22:01:10 - http://127.0.0.1:8000/ - GET
+2022-Oct-02 22:06:41 - http://127.0.0.1:8000/ - GET
+2022-Oct-02 22:06:43 - http://127.0.0.1:8000/about - GET
+2022-Oct-02 22:07:21 - D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py changed, reloading.
+2022-Oct-02 22:07:28 - http://127.0.0.1:8000/about - GET
+2022-Oct-02 22:07:28 - http://127.0.0.1:8000/about - GET
+2022-Oct-02 22:07:29 - http://127.0.0.1:8000/about - GET

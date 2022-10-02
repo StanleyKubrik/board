@@ -6,8 +6,13 @@ class UserLog:
         self.get_response = get_response
 
     def __call__(self, request):
-        logging.basicConfig(filename='log.log', format='%(name)s - %(levelname)s - %(message)s')
-        logging.debug('test')
+        method = request.method
+        url = request.build_absolute_uri()
+        logging.basicConfig(filename='logs.log', filemode='a'
+                            , format=f'%(asctime)s - %(message)s'
+                            , datefmt='%Y-%b-%d %H:%M:%S'
+                            , level=logging.DEBUG)
+        logging.debug(f'{url} - {method}')
 
         response = self.get_response(request)
 
