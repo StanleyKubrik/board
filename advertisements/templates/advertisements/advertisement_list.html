@@ -7,4 +7,17 @@
 </ul>
 <div><a href='http://127.0.0.1:8000/advertisement'>Prices</a></div>
 <div><a href='http://127.0.0.1:8000/about'>About</a></div>
+
+<div>
+    <form action="{% url 'advertisement_list' %}" method='POST'>
+        {% csrf_token %}
+        <div style="float: left;" class="form-group row">
+            <button type="submit" class="btn btn-success">Send POST request</button>
+        </div>
+    </form>
+</div>
+<div>
+    {{ answer }}
+</div>
+
 </html>

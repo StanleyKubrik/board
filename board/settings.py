@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'board.middleware.filter_ip_middleware.FilterIPMiddleware',
     # 'board.middleware.delay.DelayResponse',
-    'board.middleware.ip_requests.IpRequests',
+    # 'board.middleware.ip_requests.IpRequests',
     'board.middleware.logs.UserLog',
 ]
 

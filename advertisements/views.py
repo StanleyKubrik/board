@@ -1,18 +1,33 @@
 from django.shortcuts import render
+from django.views import View
 from django.views.generic import TemplateView
 
 
-def advertisement_list(request):
+def advertisement_prices(request):
+    return render(request, 'advertisements/advertisement_prices.html')
+
+
+class Advertisement(View):
+    count = 0
+    answer = 'Thank you for request! Requests: '
     advertisements = [
         'Мастер на час',
         'Выведение из запоя',
         'Услуги экскаватора-погрузчика, гидромолота, ямобура'
     ]
-    return render(request, 'advertisements/advertisement_list.html', {'advertisements': advertisements})
 
+    def get(self, request):
+        return render(request, 'advertisements/advertisement_list.html', {'advertisements': self.advertisements})
 
-def advertisement_prices(request):
-    return render(request, 'advertisements/advertisement_prices.html')
+    def post(self, request):
+        hit = request.session.get('hit')
+        if not hit:
+            request.session['hit'] = 0
+        else:
+            request.session['hit'] += 1
+        print(request.session.items())
+        return render(request, 'advertisements/advertisement_list.html', {'advertisements': self.advertisements,
+                                                                          'answer': self.answer + str(hit)})
 
 
 class About(TemplateView):

@@ -9,3 +9,262 @@
 2022-Oct-02 22:07:28 - http://127.0.0.1:8000/about - GET
 2022-Oct-02 22:07:28 - http://127.0.0.1:8000/about - GET
 2022-Oct-02 22:07:29 - http://127.0.0.1:8000/about - GET
+2022-Oct-15 14:00:52 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 14:00:52 - http://127.0.0.1:8000/favicon.ico - GET
+2022-Oct-15 14:00:53 - Not Found: /favicon.ico
+2022-Oct-15 14:16:19 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 14:18:15 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 14:35:11 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 14:35:11 - Forbidden (CSRF token missing.): /
+2022-Oct-15 14:37:04 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 14:37:06 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 14:37:11 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 14:37:11 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 14:37:12 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 14:37:13 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 14:37:13 - Forbidden (Permission denied): /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\board\middleware\ip_requests.py", line 13, in __call__
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+2022-Oct-15 15:01:50 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:01:52 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:01:54 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:01:55 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:01:56 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:01:56 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:01:57 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:01:57 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:01:58 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:06:22 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:06:23 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:06:24 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:06:25 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:06:25 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:06:27 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:06:27 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:08:10 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:08:10 - http://127.0.0.1:8000/favicon.ico - GET
+2022-Oct-15 15:08:10 - Not Found: /favicon.ico
+2022-Oct-15 15:08:11 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:08:12 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:08:45 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:08:47 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:09:24 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:09:25 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:09:48 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:09:49 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:10:25 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:10:28 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:11:10 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:11:11 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:11:16 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:11:39 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:11:40 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:12:01 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:12:02 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:14:26 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:14:28 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:15:17 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:15:18 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:17:53 - http://127.0.0.1:8000/ - GET
+2022-Oct-15 15:17:54 - http://127.0.0.1:8000/ - POST
+2022-Oct-15 15:17:56 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:50:29 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 13:50:30 - http://127.0.0.1:8000/favicon.ico - GET
+2022-Oct-16 13:50:30 - Not Found: /favicon.ico
+2022-Oct-16 13:50:31 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:50:32 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:50:32 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:51:46 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 13:51:47 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:51:48 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:51:49 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:51:49 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:51:50 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:52:31 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 13:52:32 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:52:33 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:52:34 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:52:35 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:53:10 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 13:53:11 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:53:12 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 13:53:12 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:09:10 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 14:09:10 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'advertisement_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py", line 32, in get
+    return render(request, 'advertisements/advertisement_list.html', {'advertisements': self.advertisements})
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'advertisement_list' is not a registered namespace
+2022-Oct-16 14:11:01 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 14:11:02 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:02 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:03 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:20 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 14:11:22 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:22 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:23 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:24 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:28 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:28 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 14:11:29 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 19:59:14 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 19:59:15 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 19:59:16 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 19:59:17 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 19:59:17 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:23:59 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 20:24:01 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:24:24 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:24:24 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py", line 32, in post
+    print(request.session['hit'])
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\contrib\sessions\backends\base.py", line 53, in __getitem__
+    return self._session[key]
+KeyError: 'hit'
+2022-Oct-16 20:26:08 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 20:26:09 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:26:31 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 20:26:32 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:26:54 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 20:26:54 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:27:54 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 20:27:55 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:37:42 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 20:37:43 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:37:43 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: wrapper() takes 1 positional argument but 2 were given
+2022-Oct-16 20:39:03 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 20:39:04 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 20:39:04 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py", line 14, in wrapper
+    view_func(request)
+TypeError: post() missing 1 required positional argument: 'request'
+2022-Oct-16 21:18:23 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 21:18:24 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 21:18:24 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 21:18:25 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 21:44:55 - http://127.0.0.1:8000/ - GET
+2022-Oct-16 21:44:58 - http://127.0.0.1:8000/ - POST
+2022-Oct-16 21:44:59 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:26:06 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:26:06 - http://127.0.0.1:8000/favicon.ico - GET
+2022-Oct-19 22:26:06 - Not Found: /favicon.ico
+2022-Oct-19 22:26:07 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:26:21 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:26:59 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:27:00 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:01 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:02 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:13 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:27:15 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:16 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:17 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:19 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:20 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:21 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:22 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:27:49 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:27:51 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:28:07 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:28:08 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:28:09 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:28:10 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:29:04 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:29:05 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:30:22 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:30:23 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:30:23 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py", line 29, in post
+    request.session.close()
+AttributeError: 'SessionStore' object has no attribute 'close'
+2022-Oct-19 22:35:17 - http://127.0.0.1:8000/ - GET
+2022-Oct-19 22:35:18 - http://127.0.0.1:8000/ - POST
+2022-Oct-19 22:35:18 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py", line 29, in post
+    request.session.clearsession()
+AttributeError: 'SessionStore' object has no attribute 'clearsession'
+2022-Oct-19 22:35:59 - D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py changed, reloading.
