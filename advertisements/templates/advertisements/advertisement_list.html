@@ -5,8 +5,9 @@
         <li>{{ adv }}</li>
     {% endfor %}
 </ul>
-<div><a href='http://127.0.0.1:8000/advertisement'>Prices</a></div>
-<div><a href='http://127.0.0.1:8000/about'>About</a></div>
+<div><a href={% url 'advertisement_prices' %}>Prices</a></div>
+<div><a href={% url 'about' %}>About</a></div>
+<div><a href={% url 'contacts' %}>Contacts</a></div>
 
 <div>
     <form action="{% url 'advertisement_list' %}" method='POST'>

@@ -268,3 +268,64 @@ Traceback (most recent call last):
     request.session.clearsession()
 AttributeError: 'SessionStore' object has no attribute 'clearsession'
 2022-Oct-19 22:35:59 - D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py changed, reloading.
+2022-Oct-24 20:23:15 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:23:16 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:23:17 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:23:18 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:24:40 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:24:40 - http://127.0.0.1:8000/favicon.ico - GET
+2022-Oct-24 20:24:40 - Not Found: /favicon.ico
+2022-Oct-24 20:24:41 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:24:42 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:36:10 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:36:11 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:44:44 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:44:45 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:45:01 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:45:03 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:46:01 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:46:02 - http://127.0.0.1:8000/favicon.ico - GET
+2022-Oct-24 20:46:02 - Not Found: /favicon.ico
+2022-Oct-24 20:46:02 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:48:06 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:48:07 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 20:48:07 - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\User\Envs\ToDo\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Courses\[Slillbox] Python-פנוילגמנך Django (2021)\Python-פנוילגמנך Django\python_django-master\03_RequestsHandlingInDjango\board\advertisements\views.py", line 30, in post
+    print(request.session.expire_date)
+AttributeError: 'SessionStore' object has no attribute 'expire_date'
+2022-Oct-24 20:50:39 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 20:50:40 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 21:11:16 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:11:17 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 21:11:19 - http://127.0.0.1:8000/ - POST
+2022-Oct-24 21:11:20 - http://127.0.0.1:8000/advertisement - GET
+2022-Oct-24 21:11:22 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:11:22 - http://127.0.0.1:8000/about - GET
+2022-Oct-24 21:11:25 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:11:26 - http://127.0.0.1:8000/advertisement - GET
+2022-Oct-24 21:11:26 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:11:27 - http://127.0.0.1:8000/about - GET
+2022-Oct-24 21:11:31 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:11:32 - http://127.0.0.1:8000/contacts - GET
+2022-Oct-24 21:11:33 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:11:34 - http://127.0.0.1:8000/about - GET
+2022-Oct-24 21:11:36 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:11:37 - http://127.0.0.1:8000/contacts - GET
+2022-Oct-24 21:11:38 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:12:06 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:12:07 - http://127.0.0.1:8000/advertisement - GET
+2022-Oct-24 21:12:08 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:12:09 - http://127.0.0.1:8000/about - GET
+2022-Oct-24 21:12:10 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:12:10 - http://127.0.0.1:8000/contacts - GET
+2022-Oct-24 21:12:15 - http://127.0.0.1:8000/ - GET
+2022-Oct-24 21:12:17 - http://127.0.0.1:8000/ - POST
